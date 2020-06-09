@@ -1,0 +1,51 @@
+<div class="center">
+  <div class="right_dangky">
+    <div class="right_title">
+      Đăng Nhập Tài Khoản
+    </div>
+
+
+
+
+
+    <div class="form_dangki">
+
+        <form action="/login" method="post" novalidate="novalidate">                                <div class="email">
+          Email
+          <input id="Email" name="Email" placeholder="Email đăng nhập" type="text" value="">
+          <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+          <br>
+        </div>
+          <div class="matkhau">
+            Mật Khẩu
+            <input id="Password" name="Password" placeholder="Mật khẩu" type="password">
+            <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+
+          </div>
+          <div>
+            <label class="container-chose-condition">
+
+              <input id="RememberMe" name="RememberMe" type="checkbox" value="true"><input name="RememberMe" type="hidden" value="false">
+              <span class="chose-pay-condition"></span>
+              <p>
+                Lưu Mật Khẩu ? |
+                <a href="/passwordrecovery" id="btn-quenmatkhau" style="color: red">Quên Mật Khẩu</a>
+              </p>
+            </label>
+          </div>
+          <!-- <input type="checkbox" value=""> Lưu Mật Khẩu ? |
+    <a href="javascript:void(0)" id="btn-quenmatkhau" style="color: red">Quên Mật Khẩu</a> -->
+          <div class="btn_dangki">
+            <input type="submit" value="Đăng nhập" class="input_login_btn">
+
+          </div>
+        </form>
+        <div class="ft_right_dangnhap">
+          Bạn chưa có tài khoản hãy click <span><a href="/register">Đăng Kí</a></span>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
