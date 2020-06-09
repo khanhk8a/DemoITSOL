@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Chọn ghế</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+    <div class="header">
+        <div class="container top-header">
+          <div class="inner">
+            <a href="#">
+              <img src="images/logo_home.png" alt="logo" />
+            </a>
+          </div>
+          <div class="right">
+            <span>
+              <span>
+                <a href="/" type="button" class="" data-toggle="modal"
+                  >Đăng ký</a
+                >
+                |
+                <a href="/login" type="button" data-toggle="modal">Đăng nhập</a>
+              </span> </span
+            ><br />
+            <div class="hotline">
+              <span
+                ><i
+                  class="fas fa-phone fa-flip-horizontal"
+                  style="color: red;"
+                ></i>
+                <span style="color: red;">Hotline:</span
+                ><span class="tx_black"> 024.35141791</span></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid nav-header mainNav menu menu_home">
+          <div class="inner container">
+            <ul class="mainMenu">
+              <li class="active"><a href="/">TRANG CHỦ</a></li>
+              <li><a href="/">GIỚI THIỆU</a></li>
+              <li><a href="/">LỊCH CHIẾU</a></li>
+              <li><a href="/">GIÁ VÉ</a></li>
+              <li class=""><a href="">THÀNH VIÊN</a></li>
+              <li><a href="/">LIÊN HỆ</a></li>
+            </ul>
+            <div class="button_mua button_mua_home">
+              <a href="/PlanScreenings/Sessiontimes"
+                ><img src="images/ticket.png" alt="" /> MUA VÉ ONLINE</a
+              >
+            </div>
+            <input type="hidden" id="hidden-cutomerid" value="0" />
+          </div>
+        </div>
+      </div>
+
+      <div class="content container">
+        <div class="tittle-page">
+            <h3>2. CHỌN GHẾ NGỒI</h3>
+            <img src="images/icon11.png" alt="">
+            <p>BẠN ĐÃ CHỌN: <span>Căn phòng đẫm máu (2D) - C18</span></p><br>
+            <strong>SUẤT CHIẾU : <span>15:20 - Thứ Ba  09/06/2020</span></strong> <br>
+        </div>
+        <div class="block-chonghe">
+                
+
+           
+                <div class="room_floor">
+                 
+                </div>
+                <div class="left-checkghe">
+                    <p>
+                        
+                        Để chọn ghế vui lòng chọn ghế ưa thích theo icon<br>
+                        Click tiếp vào ghế đã chọn để xoá lựa chọn<br>
+                        <span style="color:red">Trên mobile, sơ đồ hiển thị tốt nhất khi quay ngang</span>
+                    </p>
+                    <p class="tickit">
+                        <span id="defaultCountdown" class="hasCountdown"><b id="time"> 10 : 00 </b></span>
+                    </p>
+                    <ul class="list-ghe">
+                        <li><img src="images/0000193_ghe-vip.jpg" alt=""> Ghế VIP</li>
+                        <li><img src="images/0000194_Gh%e1%ba%bf thường.jpg" alt=""> Ghế thường</li>
+                        <li><img src="images/0000284_ghe-doi.jpg" alt=""> Ghế đôi</li>
+                        <li><img src="images/seat_active.png" alt=""> Ghế đã chọn</li>
+                        <li><img src="images/seat_lock.png" alt=""> Ghế đã bán</li>
+                    </ul>
+                    <img src="images/img49.png" alt="" class="img-center">
+                        <div class="line-ghe">
+                            <p class="tx-lf">A</p>
+                            <ul>
+        <a title="Ghế thường-1" class="seat preview  8 distance_seat" id="1__0_0_" ><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">1</span></a><a title="Ghế thường-2" class="seat preview  8 distance_seat" id="1__0_1_" onclick="onClick_ChooseChair('1__0_1_','8','241871','1','[0:1]','A2')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">2</span></a><a title="Ghế thường-3" class="seat preview  8 distance_seat" id="1__0_2_" onclick="onClick_ChooseChair('1__0_2_','8','241871','1','[0:2]','A3')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">3</span></a><a title="Ghế thường-4" class="seat preview  8 distance_seat" id="1__0_3_" onclick="onClick_ChooseChair('1__0_3_','8','241871','1','[0:3]','A4')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">4</span></a><a title="Ghế thường-5" class="seat preview  8 distance_seat" id="1__0_4_" onclick="onClick_ChooseChair('1__0_4_','8','241871','1','[0:4]','A5')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">5</span></a><a title="Ghế thường-6" class="seat preview  8 distance_seat" id="1__0_5_" onclick="onClick_ChooseChair('1__0_5_','8','241871','1','[0:5]','A6')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">6</span></a><a title="Ghế thường-7" class="seat preview  8 distance_seat" id="1__0_6_" onclick="onClick_ChooseChair('1__0_6_','8','241871','1','[0:6]','A7')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">7</span></a><a title="Ghế thường-8" class="seat preview  8 distance_seat" id="1__0_7_" onclick="onClick_ChooseChair('1__0_7_','8','241871','1','[0:7]','A8')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">8</span></a><a title="Ghế thường-9" class="seat preview  8 distance_seat" id="1__0_8_" onclick="onClick_ChooseChair('1__0_8_','8','241871','1','[0:8]','A9')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">9</span></a><a title="Ghế thường-10" class="seat preview  8 distance_seat" id="1__0_9_" onclick="onClick_ChooseChair('1__0_9_','8','241871','1','[0:9]','A10')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">10</span></a><a title="Ghế thường-11" class="seat preview  8 distance_seat" id="1__0_10_" onclick="onClick_ChooseChair('1__0_10_','8','241871','1','[0:10]','A11')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">11</span></a>                    </ul>
+                            <p class="tx-lf">A</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="line-ghe">
+                            <p class="tx-lf">B</p>
+                            <ul>
+        <a title="Ghế thường-1" class="seat preview  8 distance_seat" id="1__1_0_" ><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">1</span></a><a title="Ghế thường-2" class="seat preview  8 distance_seat" id="1__1_1_" onclick="onClick_ChooseChair('1__1_1_','8','241871','1','[1:1]','B2')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">2</span></a><a title="Ghế thường-3" class="seat preview  8 distance_seat" id="1__1_2_" onclick="onClick_ChooseChair('1__1_2_','8','241871','1','[1:2]','B3')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">3</span></a><a title="Ghế thường-4" class="seat preview  8 distance_seat" id="1__1_3_" onclick="onClick_ChooseChair('1__1_3_','8','241871','1','[1:3]','B4')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">4</span></a><a title="Ghế thường-5" class="seat preview  8 distance_seat" id="1__1_4_" onclick="onClick_ChooseChair('1__1_4_','8','241871','1','[1:4]','B5')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">5</span></a><a title="Ghế thường-6" class="seat preview  8 distance_seat" id="1__1_5_" onclick="onClick_ChooseChair('1__1_5_','8','241871','1','[1:5]','B6')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">6</span></a><a title="Ghế thường-7" class="seat preview  8 distance_seat" id="1__1_6_" onclick="onClick_ChooseChair('1__1_6_','8','241871','1','[1:6]','B7')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">7</span></a><a title="Ghế thường-8" class="seat preview  8 distance_seat" id="1__1_7_" onclick="onClick_ChooseChair('1__1_7_','8','241871','1','[1:7]','B8')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">8</span></a><a title="Ghế thường-9" class="seat preview  8 distance_seat" id="1__1_8_" onclick="onClick_ChooseChair('1__1_8_','8','241871','1','[1:8]','B9')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">9</span></a><a title="Ghế thường-10" class="seat preview  8 distance_seat" id="1__1_9_" onclick="onClick_ChooseChair('1__1_9_','8','241871','1','[1:9]','B10')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">10</span></a><a title="Ghế thường-11" class="seat preview  8 distance_seat" id="1__1_10_" onclick="onClick_ChooseChair('1__1_10_','8','241871','1','[1:10]','B11')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">11</span></a>                    </ul>
+                            <p class="tx-lf">B</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="line-ghe">
+                            <p class="tx-lf">C</p>
+                            <ul>
+        <a title="Ghế thường-1" class="seat preview  8 distance_seat" id="1__2_0_" ><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">1</span></a><a title="Ghế thường-2" class="seat preview  8 distance_seat" id="1__2_1_" onclick="onClick_ChooseChair('1__2_1_','8','241871','1','[2:1]','C2')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">2</span></a><a title="Ghế thường-3" class="seat preview  8 distance_seat" id="1__2_2_" onclick="onClick_ChooseChair('1__2_2_','8','241871','1','[2:2]','C3')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">3</span></a><a title="Ghế thường-4" class="seat preview  8 distance_seat" id="1__2_3_" onclick="onClick_ChooseChair('1__2_3_','8','241871','1','[2:3]','C4')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">4</span></a><a title="Ghế thường-5" class="seat preview  8 distance_seat" id="1__2_4_" onclick="onClick_ChooseChair('1__2_4_','8','241871','1','[2:4]','C5')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">5</span></a><a title="Ghế thường-6" class="seat preview  8 distance_seat" id="1__2_5_" onclick="onClick_ChooseChair('1__2_5_','8','241871','1','[2:5]','C6')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">6</span></a><a title="Ghế thường-7" class="seat preview  8 distance_seat" id="1__2_6_" onclick="onClick_ChooseChair('1__2_6_','8','241871','1','[2:6]','C7')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">7</span></a><a title="Ghế thường-8" class="seat preview  8 distance_seat" id="1__2_7_" onclick="onClick_ChooseChair('1__2_7_','8','241871','1','[2:7]','C8')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">8</span></a><a title="Ghế thường-9" class="seat preview  8 distance_seat" id="1__2_8_" onclick="onClick_ChooseChair('1__2_8_','8','241871','1','[2:8]','C9')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">9</span></a><a title="Ghế thường-10" class="seat preview  8 distance_seat" id="1__2_9_" onclick="onClick_ChooseChair('1__2_9_','8','241871','1','[2:9]','C10')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">10</span></a><a title="Ghế thường-11" class="seat preview  8 distance_seat" id="1__2_10_" onclick="onClick_ChooseChair('1__2_10_','8','241871','1','[2:10]','C11')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000194_Ghế thường.jpg" class="preview"><span class="number_seat">11</span></a>                    </ul>
+                            <p class="tx-lf">C</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="line-ghe">
+                            <p class="tx-lf">D</p>
+                            <ul>
+        <a title="Ghế VIP-1" class="seat preview  7 distance_seat" id="1__3_0_" ><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">1</span></a><a title="Ghế VIP-2" class="seat preview  7 distance_seat" id="1__3_1_" onclick="onClick_ChooseChair('1__3_1_','7','241871','1','[3:1]','D2')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">2</span></a><a title="Ghế VIP-3" class="seat preview  7 distance_seat" id="1__3_2_" onclick="onClick_ChooseChair('1__3_2_','7','241871','1','[3:2]','D3')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">3</span></a><a title="Ghế VIP-4" class="seat preview  7 distance_seat" id="1__3_3_" onclick="onClick_ChooseChair('1__3_3_','7','241871','1','[3:3]','D4')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">4</span></a><a title="Ghế VIP-5" class="seat preview  7 distance_seat" id="1__3_4_" onclick="onClick_ChooseChair('1__3_4_','7','241871','1','[3:4]','D5')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">5</span></a><a title="Ghế VIP-6" class="seat preview  7 distance_seat" id="1__3_5_" onclick="onClick_ChooseChair('1__3_5_','7','241871','1','[3:5]','D6')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">6</span></a><a title="Ghế VIP-7" class="seat preview  7 distance_seat" id="1__3_6_" onclick="onClick_ChooseChair('1__3_6_','7','241871','1','[3:6]','D7')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">7</span></a><a title="Ghế VIP-8" class="seat preview  7 distance_seat" id="1__3_7_" onclick="onClick_ChooseChair('1__3_7_','7','241871','1','[3:7]','D8')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">8</span></a><a title="Ghế VIP-9" class="seat preview  7 distance_seat" id="1__3_8_" onclick="onClick_ChooseChair('1__3_8_','7','241871','1','[3:8]','D9')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">9</span></a><a title="Ghế VIP-10" class="seat preview  7 distance_seat" id="1__3_9_" onclick="onClick_ChooseChair('1__3_9_','7','241871','1','[3:9]','D10')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">10</span></a><a title="Ghế VIP-11" class="seat preview  7 distance_seat" id="1__3_10_" onclick="onClick_ChooseChair('1__3_10_','7','241871','1','[3:10]','D11')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">11</span></a>                    </ul>
+                            <p class="tx-lf">D</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="line-ghe">
+                            <p class="tx-lf">E</p>
+                            <ul>
+        <a title="Ghế VIP-1" class="seat preview  7 distance_seat" id="1__4_0_" ><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">1</span></a><a title="Ghế VIP-2" class="seat preview  7 distance_seat" id="1__4_1_" onclick="onClick_ChooseChair('1__4_1_','7','241871','1','[4:1]','E2')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">2</span></a><a title="Ghế VIP-3" class="seat preview  7 distance_seat" id="1__4_2_" onclick="onClick_ChooseChair('1__4_2_','7','241871','1','[4:2]','E3')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">3</span></a><a title="Ghế VIP-4" class="seat preview  7 distance_seat" id="1__4_3_" onclick="onClick_ChooseChair('1__4_3_','7','241871','1','[4:3]','E4')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">4</span></a><a title="Ghế VIP-5" class="seat preview  7 distance_seat" id="1__4_4_" onclick="onClick_ChooseChair('1__4_4_','7','241871','1','[4:4]','E5')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">5</span></a><a title="Ghế VIP-6" class="seat preview  7 distance_seat" id="1__4_5_" onclick="onClick_ChooseChair('1__4_5_','7','241871','1','[4:5]','E6')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">6</span></a><a title="Ghế VIP-7" class="seat preview  7 distance_seat" id="1__4_6_" onclick="onClick_ChooseChair('1__4_6_','7','241871','1','[4:6]','E7')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">7</span></a><a title="Ghế VIP-8" class="seat preview  7 distance_seat" id="1__4_7_" onclick="onClick_ChooseChair('1__4_7_','7','241871','1','[4:7]','E8')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">8</span></a><a title="Ghế VIP-9" class="seat preview  7 distance_seat" id="1__4_8_" onclick="onClick_ChooseChair('1__4_8_','7','241871','1','[4:8]','E9')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">9</span></a><a title="Ghế VIP-10" class="seat preview  7 distance_seat" id="1__4_9_" onclick="onClick_ChooseChair('1__4_9_','7','241871','1','[4:9]','E10')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">10</span></a><a title="Ghế VIP-11" class="seat preview  7 distance_seat" id="1__4_10_" onclick="onClick_ChooseChair('1__4_10_','7','241871','1','[4:10]','E11')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">11</span></a>                    </ul>
+                            <p class="tx-lf">E</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="line-ghe">
+                            <p class="tx-lf">F</p>
+                            <ul>
+        <a title="Ghế VIP-1" class="seat preview  7 distance_seat" id="1__5_0_"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">1</span></a><a title="Ghế VIP-2" class="seat preview  7 distance_seat" id="1__5_1_" onclick="onClick_ChooseChair('1__5_1_','7','241871','1','[5:1]','F2')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">2</span></a><a title="Ghế VIP-3" class="seat preview  7 distance_seat" id="1__5_2_" onclick="onClick_ChooseChair('1__5_2_','7','241871','1','[5:2]','F3')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">3</span></a><a title="Ghế VIP-4" class="seat preview  7 distance_seat" id="1__5_3_" onclick="onClick_ChooseChair('1__5_3_','7','241871','1','[5:3]','F4')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">4</span></a><a title="Ghế VIP-5" class="seat preview  7 distance_seat" id="1__5_4_" onclick="onClick_ChooseChair('1__5_4_','7','241871','1','[5:4]','F5')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">5</span></a><a title="Ghế VIP-6" class="seat preview  7 distance_seat" id="1__5_5_" onclick="onClick_ChooseChair('1__5_5_','7','241871','1','[5:5]','F6')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">6</span></a><a title="Ghế VIP-7" class="seat preview  7 distance_seat" id="1__5_6_" onclick="onClick_ChooseChair('1__5_6_','7','241871','1','[5:6]','F7')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">7</span></a><a title="Ghế VIP-8" class="seat preview  7 distance_seat" id="1__5_7_" onclick="onClick_ChooseChair('1__5_7_','7','241871','1','[5:7]','F8')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">8</span></a><a title="Ghế VIP-9" class="seat preview  7 distance_seat" id="1__5_8_" onclick="onClick_ChooseChair('1__5_8_','7','241871','1','[5:8]','F9')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">9</span></a><a title="Ghế VIP-10" class="seat preview  7 distance_seat" id="1__5_9_" onclick="onClick_ChooseChair('1__5_9_','7','241871','1','[5:9]','F10')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">10</span></a><a title="Ghế VIP-11" class="seat preview  7 distance_seat" id="1__5_10_" onclick="onClick_ChooseChair('1__5_10_','7','241871','1','[5:10]','F11')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">11</span></a>                    </ul>
+                            <p class="tx-lf">F</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="line-ghe">
+                            <p class="tx-lf">G</p>
+                            <ul>
+        <a title="Ghế VIP-1" class="seat preview  7 distance_seat" id="1__6_0_" ><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">1</span></a><a title="Ghế VIP-2" class="seat preview  7 distance_seat" id="1__6_1_" onclick="onClick_ChooseChair('1__6_1_','7','241871','1','[6:1]','G2')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">2</span></a><a title="Ghế VIP-3" class="seat preview  7 distance_seat" id="1__6_2_" onclick="onClick_ChooseChair('1__6_2_','7','241871','1','[6:2]','G3')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">3</span></a><a title="Ghế VIP-4" class="seat preview  7 distance_seat" id="1__6_3_" onclick="onClick_ChooseChair('1__6_3_','7','241871','1','[6:3]','G4')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">4</span></a><a title="Ghế VIP-5" class="seat preview  7 distance_seat" id="1__6_4_" onclick="onClick_ChooseChair('1__6_4_','7','241871','1','[6:4]','G5')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">5</span></a><a title="Ghế VIP-6" class="seat preview  7 distance_seat" id="1__6_5_" onclick="onClick_ChooseChair('1__6_5_','7','241871','1','[6:5]','G6')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">6</span></a><a title="Ghế VIP-7" class="seat preview  7 distance_seat" id="1__6_6_" onclick="onClick_ChooseChair('1__6_6_','7','241871','1','[6:6]','G7')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">7</span></a><a title="Ghế VIP-8" class="seat preview  7 distance_seat" id="1__6_7_" onclick="onClick_ChooseChair('1__6_7_','7','241871','1','[6:7]','G8')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">8</span></a><a title="Ghế VIP-9" class="seat preview  7 distance_seat" id="1__6_8_" onclick="onClick_ChooseChair('1__6_8_','7','241871','1','[6:8]','G9')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">9</span></a><a title="Ghế VIP-10" class="seat preview  7 distance_seat" id="1__6_9_" onclick="onClick_ChooseChair('1__6_9_','7','241871','1','[6:9]','G10')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">10</span></a><a title="Ghế VIP-11" class="seat preview  7 distance_seat" id="1__6_10_" onclick="onClick_ChooseChair('1__6_10_','7','241871','1','[6:10]','G11')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">11</span></a>                    </ul>
+                            <p class="tx-lf">G</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="line-ghe">
+                            <p class="tx-lf">H</p>
+                            <ul>
+        <a title="Ghế VIP-1" class="seat preview  7 distance_seat" id="1__7_0_" ><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">1</span></a><a title="Ghế VIP-2" class="seat preview  7 distance_seat" id="1__7_1_" onclick="onClick_ChooseChair('1__7_1_','7','241871','1','[7:1]','H2')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">2</span></a><a title="Ghế VIP-3" class="seat preview  7 distance_seat" id="1__7_2_" onclick="onClick_ChooseChair('1__7_2_','7','241871','1','[7:2]','H3')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">3</span></a><a title="Ghế VIP-4" class="seat preview  7 distance_seat" id="1__7_3_" onclick="onClick_ChooseChair('1__7_3_','7','241871','1','[7:3]','H4')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">4</span></a><a title="Ghế VIP-5" class="seat preview  7 distance_seat" id="1__7_4_" onclick="onClick_ChooseChair('1__7_4_','7','241871','1','[7:4]','H5')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">5</span></a><a title="Ghế VIP-6" class="seat preview  7 distance_seat" id="1__7_5_" onclick="onClick_ChooseChair('1__7_5_','7','241871','1','[7:5]','H6')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">6</span></a><a title="Ghế VIP-7" class="seat preview  7 distance_seat" id="1__7_6_" onclick="onClick_ChooseChair('1__7_6_','7','241871','1','[7:6]','H7')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">7</span></a><a title="Ghế VIP-8" class="seat preview  7 distance_seat" id="1__7_7_" onclick="onClick_ChooseChair('1__7_7_','7','241871','1','[7:7]','H8')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">8</span></a><a title="Ghế VIP-9" class="seat preview  7 distance_seat" id="1__7_8_" onclick="onClick_ChooseChair('1__7_8_','7','241871','1','[7:8]','H9')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">9</span></a><a title="Ghế VIP-10" class="seat preview  7 distance_seat" id="1__7_9_" onclick="onClick_ChooseChair('1__7_9_','7','241871','1','[7:9]','H10')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">10</span></a><a title="Ghế VIP-11" class="seat preview  7 distance_seat" id="1__7_10_" onclick="onClick_ChooseChair('1__7_10_','7','241871','1','[7:10]','H11')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000193_ghe-vip.jpg" class="preview"><span class="number_seat">11</span></a>                    </ul>
+                            <p class="tx-lf">H</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="line-ghe">
+                            <p class="tx-lf">I</p>
+                            <ul>
+        <a title="Ghế đôi-1" class="seat preview  9 distance_seat" id="1__8_0_" ><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000284_ghe-doi.jpg" class="preview"><span class="number_seat">1</span></a><a title="Ghế đôi-2" class="seat preview  9 distance_seat" id="1__8_1_" onclick="onClick_ChooseChair('1__8_1_','9','241871','1','[8:1]','I2')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000284_ghe-doi.jpg" class="preview"><span class="number_seat">2</span></a><a title="Ghế đôi-3" class="seat preview  9 distance_seat" id="1__8_2_" onclick="onClick_ChooseChair('1__8_2_','9','241871','1','[8:2]','I3')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000284_ghe-doi.jpg" class="preview"><span class="number_seat">3</span></a><a title="Ghế đôi-4" class="seat preview  9 distance_seat" id="1__8_3_" onclick="onClick_ChooseChair('1__8_3_','9','241871','1','[8:3]','I4')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000284_ghe-doi.jpg" class="preview"><span class="number_seat">4</span></a><a title="Ghế đôi-5" class="seat preview  9 distance_seat" id="1__8_4_" onclick="onClick_ChooseChair('1__8_4_','9','241871','1','[8:4]','I5')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000284_ghe-doi.jpg" class="preview"><span class="number_seat">5</span></a><a title="Ghế đôi-6" class="seat preview  9 distance_seat" id="1__8_5_" onclick="onClick_ChooseChair('1__8_5_','9','241871','1','[8:5]','I6')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000284_ghe-doi.jpg" class="preview"><span class="number_seat">6</span></a><a title="Ghế đôi-7" class="seat preview  9 distance_seat" id="1__8_6_" onclick="onClick_ChooseChair('1__8_6_','9','241871','1','[8:6]','I7')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000284_ghe-doi.jpg" class="preview"><span class="number_seat">7</span></a><a title="Ghế đôi-8" class="seat preview  9 distance_seat" id="1__8_7_" onclick="onClick_ChooseChair('1__8_7_','9','241871','1','[8:7]','I8')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000284_ghe-doi.jpg" class="preview"><span class="number_seat">8</span></a><a title="Ghế đôi-9" class="seat preview  9 distance_seat" id="1__8_8_" onclick="onClick_ChooseChair('1__8_8_','9','241871','1','[8:8]','I9')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000284_ghe-doi.jpg" class="preview"><span class="number_seat">9</span></a><a title="Ghế đôi-10" class="seat preview  9 distance_seat" id="1__8_9_" onclick="onClick_ChooseChair('1__8_9_','9','241871','1','[8:9]','I10')"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000284_ghe-doi.jpg" class="preview"><span class="number_seat">10</span></a><a title="Khác-10" class="seat preview  6 distance_seat" id="1__8_10_" onclick="return false;"><img src="https://chieuphimquocgia.com.vn/content/images/thumbs/0000192_Khác.jpg" class="notSeat"><span class="number_seat"></span></a>                    </ul>
+                            <p class="tx-lf">I</p>
+                        </div>
+                        <div class="clear"></div>
+                </div>
+        
+                        <div class="right-checkmovie">
+                            <button class="title-movie" onclick="location.href='/showtimes-lich-chieu-phim'" style="background:#ffffff08">CHỌN LẠI PHIM</button>
+                            <img src="https://chieuphimquocgia.com.vn/content/images/0014671_0.jpeg" alt="" style="width:176px;height:260px;">
+                            
+        
+                            <div class="order_cart_list_1">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Ghế chọn mua:</td>
+                                            <td class="tx-yel">G4</td>
+                                        </tr>
+                                         <tr>
+                                          <td class="line">Số lượng:</td>
+                                          <td class="tx-yel tx-right line">1</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tx-big">TỔNG:</td>
+                                            <td class="tx-yel tx-big">65.000 VNĐ</td>
+                                        </tr>
+                                       </tbody>
+                                  </table>
+                                  <input type="button" id="btn-ao-continue" name="checkout" value="Thanh Toán" class="btn-ao-continue">
+                            </div>
+        
+        
+        
+          
+                        </div>
+                    </div>
+
+
+      </div>
+
+
+      <div class="footer">
+        <div class="fott">
+          <div class="container">
+            <ul class="nav-footer">
+              <li><a href="/">Chính sách</a></li>
+              <li><a href="/">Lịch chiếu</a></li>
+              <li><a href="/">Tin tức </a></li>
+              <li><a href="/">Giá vé</a></li>
+              <li><a href="/">Hỏi đáp</a></li>
+              <li><a href="/">Liên hệ</a></li>
+            </ul>
+
+            <div class="box_left">
+              <div class="visit_online" style="margin-top: 20px;">
+                <span>Số người online:</span>
+                <img src="images/icon_online.png" />
+                <font color="#ffc000">289</font>
+
+                <span style="margin-left: 50px;">Số lượt truy cập:</span>
+                <img src="images/icon_allonline.png" />
+                <font color="#ffc000">20403664</font>
+              </div>
+              <div class="clear"></div>
+            </div>
+            <div class="down">
+              <a href="#"><img src="images/img24.png" alt="" /></a>
+              <a href="#"><img src="images/img25.png" alt="" /></a>
+              <a
+                href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=4527"
+                ><img
+                  src="images/logo_da_thong_bao.png"
+                  alt=""
+                  style="width: 250px; height: 100px;"
+              /></a>
+            </div>
+            <p>
+              Cơ quan chủ quản: BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH<br />
+              Bản quyền thuộc Trung tâm Chiếu phim Quốc gia.<br />
+              Giấy phép số: 224/GP- TTĐT ngày 31/8/2010 - Chịu trách nhiệm:
+              Nguyễn Danh Dương – Giám đốc.<br />
+              Địa chỉ: 87 Láng Hạ, Quận Ba Đình, Tp. Hà Nội - Điện thoại:
+              024.35141791
+            </p>
+
+            <div class="link">
+              <a href="#"><img src="images/img26.png" alt="" /></a>
+              <a href="https://www.facebook.com/khanhsdv92/"
+                ><img src="images/img27.png" alt=""
+              /></a>
+              <a href="#"><img src="images/img28.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/timer.js"> </script>
+    </body>
+</html>

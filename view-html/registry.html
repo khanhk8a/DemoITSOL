@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    </head>
+  <body>
+    <div class="wrapper">
+        <div class="header">
+          <div class="container top-header">
+            <div class="inner">
+              <a href="#">
+                <img src="images/logo_home.png" alt="logo" />
+              </a>
+            </div>
+            <div class="right">
+              <span>
+                <span>
+                  <a href="/" type="button" class="" data-toggle="modal"
+                    >Đăng ký</a
+                  >
+                  |
+                  <a href="/login" type="button" data-toggle="modal">Đăng nhập</a>
+                </span> </span
+              ><br />
+              <div class="hotline">
+                <span
+                  ><i
+                    class="fas fa-phone fa-flip-horizontal"
+                    style="color: red;"
+                  ></i>
+                  <span style="color: red;">Hotline:</span
+                  ><span class="tx_black"> 024.35141791</span></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid nav-header mainNav menu menu_home">
+            <div class="inner container">
+              <ul class="mainMenu">
+                <li class="active"><a href="/">TRANG CHỦ</a></li>
+                <li><a href="/">GIỚI THIỆU</a></li>
+                <li><a href="/">LỊCH CHIẾU</a></li>
+                <li><a href="/">GIÁ VÉ</a></li>
+                <li class=""><a href="">THÀNH VIÊN</a></li>
+                <li><a href="/">LIÊN HỆ</a></li>
+              </ul>
+              <div class="button_mua button_mua_home">
+                <a href="/PlanScreenings/Sessiontimes"
+                  ><img src="images/ticket.png" alt="" /> MUA VÉ ONLINE</a
+                >
+              </div>
+              <input type="hidden" id="hidden-cutomerid" value="0" />
+            </div>
+          </div>
+        </div>
+        <div class="center">
+            <div class="right_dangky">
+              <div class="right_title">
+                Đăng Kí Tài Khoản Mới
+              </div>
+            
+              <div class="form_dangki">
+            
+            
+                <div class="ho">
+                  Họ(<span style="color:red">*</span>)
+                  <input data-val="true" data-val-required="Yêu cầu nhập họ." id="LastName" name="LastName" type="text" value="">
+            
+                  <span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+            
+                </div>
+                <div class="ten">
+                  Tên(<span style="color:red">*</span>)
+                  <input data-val="true" data-val-required="Yêu cầu nhập tên" id="FirstName" name="FirstName" type="text" value="">
+            
+                  <span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+            
+                </div>
+                <div class="cmnd">
+                  CMND(<span style="color:red">*</span>)
+                  <input id="IDCard" name="IDCard" type="text" value="">
+            
+                  <span class="field-validation-valid" data-valmsg-for="IDCard" data-valmsg-replace="true"></span>
+            
+                </div>
+                <div class="sodienthoai">
+                  Số Điện Thoại(<span style="color:red">*</span>)
+                  <input type="text" name="sdt" value="">
+                </div>
+                <div class="email">
+                  Email(<span style="color:red">*</span>)
+                  <input data-val="true" data-val-email="Định dạng hòm thư không đúng" data-val-required="Yêu cầu nhập hòm thư điện tử." id="Email" name="Email" type="text" value="">
+            
+                  <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+            
+                  <span>(Email này dùng để kích hoạt tài khoản và nhận đơn hàng)</span>
+                  <br>
+                </div>
+                <div class="matkhau">
+                  Mật Khẩu(<span style="color:red">*</span>)
+                  <input data-val="true" data-val-length="Mật khâu phải có ít nhất 6 ký tự." data-val-length-max="999" data-val-length-min="6" data-val-required="Yêu cầu nhập mật khẩu." id="Password" name="Password" type="password" value="">
+                  <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+            
+                </div>
+                <div class="xacnhanmatkhau">
+                  Xác Nhận Mật Khẩu(<span style="color:red">*</span>)
+                  <input data-val="true" data-val-equalto="Mật khẩu và xác nhận mật khẩu không giống nhau." data-val-equalto-other="*.Password" data-val-required="Yêu cầu xác nhận mật khẩu." id="ConfirmPassword" name="ConfirmPassword" type="password" value="">
+                  <span class="field-validation-valid" data-valmsg-for="ConfirmPassword" data-valmsg-replace="true"></span>
+            
+                  <span>(<span style="color:red">*</span>) Các mục yêu cầu</span>
+                </div>
+                <div>
+            
+                </div>
+                <div class="btn_dangki">
+                  <button type="submit" value="Đăng kí">ĐĂNG KÍ</button>
+                </div>
+              </div>
+            </div>
+            
+            </div>
+
+        <div class="footer">
+            <div class="fott">
+              <div class="container">
+                <ul class="nav-footer">
+                  <li><a href="/">Chính sách</a></li>
+                  <li><a href="/">Lịch chiếu</a></li>
+                  <li><a href="/">Tin tức </a></li>
+                  <li><a href="/">Giá vé</a></li>
+                  <li><a href="/">Hỏi đáp</a></li>
+                  <li><a href="/">Liên hệ</a></li>
+                </ul>
+    
+                <div class="box_left">
+                  <div class="visit_online" style="margin-top: 20px;">
+                    <span>Số người online:</span>
+                    <img src="images/icon_online.png" />
+                    <font color="#ffc000">289</font>
+    
+                    <span style="margin-left: 50px;">Số lượt truy cập:</span>
+                    <img src="images/icon_allonline.png" />
+                    <font color="#ffc000">20403664</font>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="down">
+                  <a href="#"><img src="images/img24.png" alt="" /></a>
+                  <a href="#"><img src="images/img25.png" alt="" /></a>
+                  <a
+                    href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=4527"
+                    ><img
+                      src="images/logo_da_thong_bao.png"
+                      alt=""
+                      style="width: 250px; height: 100px;"
+                  /></a>
+                </div>
+                <p>
+                  Cơ quan chủ quản: BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH<br />
+                  Bản quyền thuộc Trung tâm Chiếu phim Quốc gia.<br />
+                  Giấy phép số: 224/GP- TTĐT ngày 31/8/2010 - Chịu trách nhiệm:
+                  Nguyễn Danh Dương – Giám đốc.<br />
+                  Địa chỉ: 87 Láng Hạ, Quận Ba Đình, Tp. Hà Nội - Điện thoại:
+                  024.35141791
+                </p>
+    
+                <div class="link">
+                  <a href="#"><img src="images/img26.png" alt="" /></a>
+                  <a href="https://www.facebook.com/khanhsdv92/"
+                    ><img src="images/img27.png" alt=""
+                  /></a>
+                  <a href="#"><img src="images/img28.png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chi tiết phim</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="container top-header">
+          <div class="inner">
+            <a href="#">
+              <img src="images/logo_home.png" alt="logo" />
+            </a>
+          </div>
+          <div class="right">
+            <span>
+              <span>
+                <a href="/" type="button" class="" data-toggle="modal"
+                  >Đăng ký</a
+                >
+                |
+                <a href="/login" type="button" data-toggle="modal">Đăng nhập</a>
+              </span> </span
+            ><br />
+            <div class="hotline">
+              <span
+                ><i
+                  class="fas fa-phone fa-flip-horizontal"
+                  style="color: red;"
+                ></i>
+                <span style="color: red;">Hotline:</span
+                ><span class="tx_black"> 024.35141791</span></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid nav-header mainNav menu menu_home">
+          <div class="inner container">
+            <ul class="mainMenu">
+              <li class="active"><a href="/">TRANG CHỦ</a></li>
+              <li><a href="/">GIỚI THIỆU</a></li>
+              <li><a href="/">LỊCH CHIẾU</a></li>
+              <li><a href="/">GIÁ VÉ</a></li>
+              <li class=""><a href="">THÀNH VIÊN</a></li>
+              <li><a href="/">LIÊN HỆ</a></li>
+            </ul>
+            <div class="button_mua button_mua_home">
+              <a href="/PlanScreenings/Sessiontimes"
+                ><img src="images/ticket.png" alt="" /> MUA VÉ ONLINE</a
+              >
+            </div>
+            <input type="hidden" id="hidden-cutomerid" value="0" />
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="tittle-page">
+          <h3>CHI TIẾT PHIM</h3>
+          <img src="images/img31.png" alt="" />
+        </div>
+        <div class="phimdangchieu_content container">
+          <div class="header_phimdangchieu">
+            <div class="left_phimdangchieu_content">
+              <img
+                src="https://chieuphimquocgia.com.vn/Content/Images/0014670_0.jpeg"
+                alt="Picture of Kẻ trực đêm (2D) - C18"
+                title="Show details for Kẻ trực đêm (2D) - C18"
+                style="width: 176px; height: 260px;"
+              />
+            </div>
+            <div class="right_phimdangchieu_content">
+              <div class="title_phimdangchieu_content">
+                Kẻ trực đêm (2D) - C18
+              </div>
+              <div class="col1_right_phimdangchieu_content">
+                <p>
+                  <strong>Loại phim:</strong> Tâm lý, tình cảm, <br />
+                  <strong>Thời lượng:</strong> 90 phút <br />
+                  <strong>Diễn viên:</strong> Tye Sheridan, Ana de Armas <br />
+                  <strong>Đạo diễn:</strong> Michael Cristofer <br />
+                  <strong>Xuất xứ:</strong> Mỹ <br />
+                  <strong>Khởi chiếu:</strong> 05/06/2020 <br />
+
+                  <strong>Khuyến cáo:</strong> Phim cấm khán giả dưới 18 tuổi
+                </p>
+                <button class="btn-muave" onclick="window.location.href='#'">
+                  MUA VÉ
+                </button>
+                <button
+                  class="btn-traler video"
+                  data-video="https://www.youtube.com/embed/X-zLbelWyDc"
+                  data-toggle="modal"
+                  data-target="#videoModal"
+                >
+                  XEM TRAILER
+                </button>
+              </div>
+              <div class="col2_right_phimdangchieu_content">
+                <p>
+                  Bart Bromley là một nhân viên bán hàng đêm rất thông minh. Khi
+                  một phụ nữ bị sát hại trong ca làm việc của mình, Bart đã trở
+                  thành nghi phạm chính. Và khi cuộc điều tra của cảnh sát khép
+                  lại, Bart tạo mối liên hệ cá nhân với một vị khách xinh đẹp
+                  tên Andrea, nhưng anh sớm nhận ra mình phải ngăn chặn kẻ giết
+                  người thực sự trước khi Andrea trở thành nạn nhân tiếp theo.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <ul class="nav nav-tabs">
+              <li><a data-toggle="tab" href="#menu1">Lịch Chiếu Phim</a></li>
+              <li><a data-toggle="tab" href="#menu2">Bình Luận</a></li>
+              <li><a data-toggle="tab" href="#menu3">Các Phim Khác</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="menu1" class="tab-pane fade">
+                <div class="movie-detail-list row1">
+                  <div class="movie-detail-list__item">
+                    <p class="showtime__day">Thứ Hai-08-06-2020</p>
+                    <div class="showtime">
+                      <ul class="showtime__list">
+                        <li class="showtime__list__item selected">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241743"
+                              >09:40</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241744"
+                              >11:20</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241745"
+                              >13:00</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241746"
+                              >14:40</a
+                            ></span
+                          >
+                        </li>
+                       
+                      </ul>
+                    </div>
+                    <div class="movie-detail-type">
+                      <div class="type-2d"><span>2D</span></div>
+                    </div>
+                    <p class="showtime__day">Thứ Ba-09-06-2020</p>
+                    <div class="showtime">
+                      <ul class="showtime__list">
+                        <li class="showtime__list__item selected">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241833"
+                              >11:20</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241837"
+                              >18:00</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241838"
+                              >19:40</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241839"
+                              >21:20</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241842"
+                              >22:00</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241840"
+                              >23:00</a
+                            ></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="movie-detail-type">
+                      <div class="type-2d"><span>2D</span></div>
+                    </div>
+                    <p class="showtime__day">Thứ Tư-10-06-2020</p>
+                    <div class="showtime">
+                      <ul class="showtime__list">
+                        <li class="showtime__list__item selected">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241895"
+                              >09:40</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241896"
+                              >11:20</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241897"
+                              >13:00</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241898"
+                              >14:40</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241900"
+                              >16:20</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241901"
+                              >18:00</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241902"
+                              >19:40</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241903"
+                              >21:20</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241906"
+                              >22:00</a
+                            ></span
+                          >
+                        </li>
+                        <li class="showtime__list__item">
+                          <span
+                            ><a href="/PlanScreenings/BookTicket?pId=241904"
+                              >23:00</a
+                            ></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="movie-detail-type">
+                      <div class="type-2d"><span>2D</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="menu2" class="tab-pane fade">
+                <h3>Bình Luận</h3>
+                
+              </div>
+              <div id="menu3" class="tab-pane fade">
+                <div class="cacphimkhac">
+  
+      <div class="left_cacphimkhac" style="margin-bottom: 50px;">
+          <div class="avatar_phimkhac">
+              <a href="/can-phong-dam-mau-2d-c18-chi-tiet-film-9405"><img src="https://chieuphimquocgia.com.vn/Content/Images/0014668_0.png" alt="Picture of Căn phòng đẫm máu (2D) - C18" title="Show details for Căn phòng đẫm máu (2D) - C18" style="width:170px;height:260px;"></a>
+          </div>
+          <div class="content_phimkhac">
+              <div class="title_phimkhac">
+                  <a href="/can-phong-dam-mau-2d-c18-chi-tiet-film-9405" style="color:black;font-size:85%;">Căn phòng đẫm máu (2D) - C18</a>
+              </div>
+              <div class="description_phimkhac">
+                      <strong>Loại phim:</strong>Kinh dị<br>
+
+                  <strong>Thời lượng:</strong>100 phút <br>
+                  <strong>Diễn viên:</strong> Lee Se Young, Park Ji Young<br>
+                  <strong>Đạo diễn:</strong> Yoon Eun Kyung <br>
+                  <strong>Xuất xứ:</strong> Hàn Quốc<br>
+                  <strong>Khởi chiếu:</strong> 05/06/2020
+              </div>
+              <br>
+             
+                  <button class="btn-muave" style="background-color:red; border:1px;width:100px;height:30px" onclick="window.location.href='/PlanScreenings/Sessiontimes?filmId=9405'">MUA VÉ</button>
+                  
+                  <button class="btn-traler video" style="color:red;border:1px solid red;height:30px" data-video="https://www.youtube.com/embed/vLVIH5-JiUg" data-toggle="modal" data-target="#videoModal">XEM TRAILER</button>
+          </div>
+      </div>
+      <div class="left_cacphimkhac" style="margin-bottom: 50px;">
+        <div class="avatar_phimkhac">
+            <a href="/can-phong-dam-mau-2d-c18-chi-tiet-film-9405"><img src="https://chieuphimquocgia.com.vn/Content/Images/0014668_0.png" alt="Picture of Căn phòng đẫm máu (2D) - C18" title="Show details for Căn phòng đẫm máu (2D) - C18" style="width:170px;height:260px;"></a>
+        </div>
+        <div class="content_phimkhac">
+            <div class="title_phimkhac">
+                <a href="/can-phong-dam-mau-2d-c18-chi-tiet-film-9405" style="color:black;font-size:85%;">Căn phòng đẫm máu (2D) - C18</a>
+            </div>
+            <div class="description_phimkhac">
+                    <strong>Loại phim:</strong>Kinh dị<br>
+
+                <strong>Thời lượng:</strong>100 phút <br>
+                <strong>Diễn viên:</strong> Lee Se Young, Park Ji Young<br>
+                <strong>Đạo diễn:</strong> Yoon Eun Kyung <br>
+                <strong>Xuất xứ:</strong> Hàn Quốc<br>
+                <strong>Khởi chiếu:</strong> 05/06/2020
+            </div>
+            <br>
+           
+                <button class="btn-muave" style="background-color:red; border:1px;width:100px;height:30px" onclick="window.location.href='/PlanScreenings/Sessiontimes?filmId=9405'">MUA VÉ</button>
+                
+                <button class="btn-traler video" style="color:red;border:1px solid red;height:30px" data-video="https://www.youtube.com/embed/vLVIH5-JiUg" data-toggle="modal" data-target="#videoModal">XEM TRAILER</button>
+        </div>
+    </div>
+    <div class="left_cacphimkhac" style="margin-bottom: 50px;">
+      <div class="avatar_phimkhac">
+          <a href="/can-phong-dam-mau-2d-c18-chi-tiet-film-9405"><img src="https://chieuphimquocgia.com.vn/Content/Images/0014668_0.png" alt="Picture of Căn phòng đẫm máu (2D) - C18" title="Show details for Căn phòng đẫm máu (2D) - C18" style="width:170px;height:260px;"></a>
+      </div>
+      <div class="content_phimkhac">
+          <div class="title_phimkhac">
+              <a href="/can-phong-dam-mau-2d-c18-chi-tiet-film-9405" style="color:black;font-size:85%;">Căn phòng đẫm máu (2D) - C18</a>
+          </div>
+          <div class="description_phimkhac">
+                  <strong>Loại phim:</strong>Kinh dị<br>
+
+              <strong>Thời lượng:</strong>100 phút <br>
+              <strong>Diễn viên:</strong> Lee Se Young, Park Ji Young<br>
+              <strong>Đạo diễn:</strong> Yoon Eun Kyung <br>
+              <strong>Xuất xứ:</strong> Hàn Quốc<br>
+              <strong>Khởi chiếu:</strong> 05/06/2020
+          </div>
+          <br>
+         
+              <button class="btn-muave" style="background-color:red; border:1px;width:100px;height:30px" onclick="window.location.href='/PlanScreenings/Sessiontimes?filmId=9405'">MUA VÉ</button>
+              
+              <button class="btn-traler video" style="color:red;border:1px solid red;height:30px" data-video="https://www.youtube.com/embed/vLVIH5-JiUg" data-toggle="modal" data-target="#videoModal">XEM TRAILER</button>
+      </div>
+  </div>
+  <div class="left_cacphimkhac" style="margin-bottom: 50px;">
+    <div class="avatar_phimkhac">
+        <a href="/can-phong-dam-mau-2d-c18-chi-tiet-film-9405"><img src="https://chieuphimquocgia.com.vn/Content/Images/0014668_0.png" alt="Picture of Căn phòng đẫm máu (2D) - C18" title="Show details for Căn phòng đẫm máu (2D) - C18" style="width:170px;height:260px;"></a>
+    </div>
+    <div class="content_phimkhac">
+        <div class="title_phimkhac">
+            <a href="/can-phong-dam-mau-2d-c18-chi-tiet-film-9405" style="color:black;font-size:85%;">Căn phòng đẫm máu (2D) - C18</a>
+        </div>
+        <div class="description_phimkhac">
+                <strong>Loại phim:</strong>Kinh dị<br>
+
+            <strong>Thời lượng:</strong>100 phút <br>
+            <strong>Diễn viên:</strong> Lee Se Young, Park Ji Young<br>
+            <strong>Đạo diễn:</strong> Yoon Eun Kyung <br>
+            <strong>Xuất xứ:</strong> Hàn Quốc<br>
+            <strong>Khởi chiếu:</strong> 05/06/2020
+        </div>
+        <br>
+       
+            <button class="btn-muave" style="background-color:red; border:1px;width:100px;height:30px" onclick="window.location.href='/PlanScreenings/Sessiontimes?filmId=9405'">MUA VÉ</button>
+            
+            <button class="btn-traler video" style="color:red;border:1px solid red;height:30px" data-video="https://www.youtube.com/embed/vLVIH5-JiUg" data-toggle="modal" data-target="#videoModal">XEM TRAILER</button>
+    </div>
+</div>
+     
+
+                  </div>
+               
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="modal fade"
+            id="videoModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+            style="display: none;"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content" style="width: 750px; margin: 0 auto;">
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">×</span>
+                  </button>
+                  <iframe
+                    width="750"
+                    height="450"
+                    src="https://www.youtube.com/embed/X-zLbelWyDc"
+                    frameborder="0"
+                    allowfullscreen=""
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="fott">
+          <div class="container">
+            <ul class="nav-footer">
+              <li><a href="/">Chính sách</a></li>
+              <li><a href="/">Lịch chiếu</a></li>
+              <li><a href="/">Tin tức </a></li>
+              <li><a href="/">Giá vé</a></li>
+              <li><a href="/">Hỏi đáp</a></li>
+              <li><a href="/">Liên hệ</a></li>
+            </ul>
+
+            <div class="box_left">
+              <div class="visit_online" style="margin-top: 20px;">
+                <span>Số người online:</span>
+                <img src="images/icon_online.png" />
+                <font color="#ffc000">289</font>
+
+                <span style="margin-left: 50px;">Số lượt truy cập:</span>
+                <img src="images/icon_allonline.png" />
+                <font color="#ffc000">20403664</font>
+              </div>
+              <div class="clear"></div>
+            </div>
+            <div class="down">
+              <a href="#"><img src="images/img24.png" alt="" /></a>
+              <a href="#"><img src="images/img25.png" alt="" /></a>
+              <a
+                href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=4527"
+                ><img
+                  src="images/logo_da_thong_bao.png"
+                  alt=""
+                  style="width: 250px; height: 100px;"
+              /></a>
+            </div>
+            <p>
+              Cơ quan chủ quản: BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH<br />
+              Bản quyền thuộc Trung tâm Chiếu phim Quốc gia.<br />
+              Giấy phép số: 224/GP- TTĐT ngày 31/8/2010 - Chịu trách nhiệm:
+              Nguyễn Danh Dương – Giám đốc.<br />
+              Địa chỉ: 87 Láng Hạ, Quận Ba Đình, Tp. Hà Nội - Điện thoại:
+              024.35141791
+            </p>
+
+            <div class="link">
+              <a href="#"><img src="images/img26.png" alt="" /></a>
+              <a href="https://www.facebook.com/khanhsdv92/"
+                ><img src="images/img27.png" alt=""
+              /></a>
+              <a href="#"><img src="images/img28.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
